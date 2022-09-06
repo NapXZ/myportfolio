@@ -4,7 +4,7 @@ body {
     color: rgb(0, 0, 0);
     font-size: 15px;
     letter-spacing: 2px;
-    overflow-y: hidden;/* Hide vertical scrollbar */
+    /*overflow-y: hidden;/* Hide vertical scrollbar */
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
@@ -12,16 +12,16 @@ body {
 	height: 100vh;
 }
 
-.Myport{
+.myport{
     text-align: center;
-    padding: 5px;
+    padding: 0px;
 }
 
 .video1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5px;
+    margin-top: 3px;
     height: auto;
     max-width: 500px;
 }
@@ -30,19 +30,33 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5px;
+    margin-top: 3px;
+    height: auto;
+    max-width: 500px;
+}
+
+.video3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
     height: auto;
     max-width: 500px;
 }
 
 .car{
     text-align: center;
-    padding: 5px;
+    padding: 0px;
 }
 
 .milk{
     text-align: center;
-    padding: 20px;
+    padding: 5px;
+}
+
+.yo{
+    text-align: center;
+    padding: 5px;
 }
 
 #grad {
